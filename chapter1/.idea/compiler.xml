@@ -12,6 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="chapter1" />
+        <module name="config-client" />
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="service-feign" />
@@ -22,6 +23,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter1" target="1.5" />
+      <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="service-feign" target="1.8" />
